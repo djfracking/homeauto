@@ -1,9 +1,3 @@
-# AI-MODEL-COMPONENT-NOTE.md
-
-> **Drop-in repo file.** Everything from the horizontal rule down is the file content. Copy it into your repo root as `AI-MODEL-COMPONENT-NOTE.md`, then reference it from your `LICENSE` and `README` (see the "Applying this note" block at the bottom).
-
----
-
 <!-- AI-MODEL-COMPONENT-NOTE.md -->
 <!-- Interpretive clarification for software incorporating AI model components. -->
 <!-- Text: AI Model Component Note, v1.1-draft (June 2026), inno³ — CC0. -->
@@ -43,13 +37,9 @@ The Applicable License's own definition of Corresponding Source continues to gov
 
 ### 1. Scope
 
-*(Reconstructed from the published summary.)*
-
 This clarification applies to every AI Model Component distributed as part of the Program, and only to such Components. Where the Program, as distributed by or under the direction of a copyright holder, incorporates an AI Model Component without which the Program would not function as intended, that Component forms part of the Program, and the Model Corresponding Information for that Component forms part of the source code (or preferred form for making modifications) that the Applicable License obliges distributors to provide.
 
 ### 2. Configurations outside the scope
-
-*(Reconstructed from the published summary.)*
 
 (a) **Mere aggregation.** A model distributed merely on the same medium as the Program, or stored alongside it, without the Program depending on that model to function as intended, is not an AI Model Component of the Program.
 
@@ -61,29 +51,8 @@ This clarification applies to every AI Model Component distributed as part of th
 
 ### 3. Delivery standard
 
-*(Reconstructed from the published summary.)*
-
 The Model Corresponding Information is provided by the same customary means, and subject to the same timing, as the source code required by the Applicable License. Where the Applicable License contains a no-further-restrictions clause (GPL-3.0 §10, AGPL-3.0 §10, GPL-2.0 §6, and equivalents), any contractual or technical barrier preventing recipients from using, studying, modifying, or redistributing the Model Corresponding Information is treated as a further restriction within the meaning of that clause.
 
 ---
 
 *Text of the note: AI Model Component Note, v1.1-draft, © inno³, licensed CC0. Interpretive clarification in the tradition of the Linux kernel syscall note and the FSF GPL FAQ. To the extent of any conflict with the Applicable License, the Applicable License prevails.*
-
----
-
-## Applying this note to your repos
-
-1. **Copy** the block between the two horizontal rules above (excluding this section) into each repo root as `AI-MODEL-COMPONENT-NOTE.md`.
-2. **LICENSE file** – add one line at the top, e.g. for your AGPL repo:
-   > This work is licensed under GNU Affero General Public License v3.0 or later, supplemented by the AI Model Component Note (see `AI-MODEL-COMPONENT-NOTE.md`), which is an interpretive clarification of the Corresponding Source definition.
-   For the CERN-OHL repo, substitute your variant (`CERN-OHL-S-2.0`, `-W-2.0`, or `-P-2.0`).
-3. **README** – add a short "Licensing" section referencing both the license and the note.
-4. **SPDX expression** – pending SPDX acceptance of the identifier, use the interim expression from the inno³ project's `HOW_TO_APPLY`; the target form is:
-   - `AGPL-3.0-or-later WITH AI-Model-Component-Note`
-   - `CERN-OHL-S-2.0 WITH AI-Model-Component-Note` (adjust variant)
-
-## ⚠️ Caveats
-
-- **Sections 1–3 are reconstructions** written from inno³'s published description of the v1.1-draft structure (scope declaration; carve-outs for aggregation, API services, third-party models, and unlawful-to-redistribute data; delivery standard). Before final adoption, replace them with the canonical text from the inno³ project repository and note the version you adopted.
-- The note binds **distributors of software containing your code plus an opaque model** — it is not a "train on this repo, release your weights" clause (that's Contextual Copyleft).
-- Untested in court; the Applicable License prevails on any conflict.
