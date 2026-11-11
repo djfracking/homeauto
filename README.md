@@ -24,6 +24,13 @@ The overarching system design lives in [docs/CONOPS.md](docs/CONOPS.md): a "hous
 
 - **Code:** AGPL-3.0-or-later — see . © 2026 DJ Fracking, see .
 - **Hardware designs:** CERN-OHL-S-2.0 — see [hardware/LICENSE](hardware/LICENSE).
+- **AI Model Component Note:** both licenses are supplemented by the
+  AI Model Component Note, an interpretive
+  clarification stating that when an AI model component is incorporated into
+  this project, the information needed to retrain, modify, or replace it
+  (weights, architecture, training scripts, configuration) is part of the
+  source the licenses already require distributors to provide. It does not
+  modify either license; where it conflicts with a license, the license prevails.
 
 ## Contributing
 
