@@ -11,6 +11,12 @@ This project is free and open source:
   CERN Open Hardware Licence Version 2 - Strongly Reciprocal
   (CERN-OHL-S-2.0).
 
+- Both licenses are supplemented by the AI Model Component Note
+  (see AI-MODEL-COMPONENT-NOTE.md), an interpretive clarification
+  by the copyright holder regarding AI model components incorporated
+  into this project. Where the note and a license conflict, the
+  license prevails.
+
 This software and these designs are distributed in the hope that they
 will be useful, but WITHOUT ANY WARRANTY; without even the implied
 warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
