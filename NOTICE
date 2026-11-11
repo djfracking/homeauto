@@ -1,0 +1,24 @@
+homeauto
+Copyright (C) 2026 DJ Fracking
+
+This project is free and open source:
+
+- Software is licensed under the GNU Affero General Public License
+  as published by the Free Software Foundation, either version 3 of
+  the License, or (at your option) any later version.
+
+- Hardware design files (see hardware/) are licensed under the
+  CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+  (CERN-OHL-S-2.0).
+
+This software and these designs are distributed in the hope that they
+will be useful, but WITHOUT ANY WARRANTY; without even the implied
+warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+See the GNU Affero General Public License and the CERN Open Hardware
+Licence for more details.
+
+You should have received copies of both licenses along with this
+project. If not, see <https://www.gnu.org/licenses/> and
+<https://ohwr.org/cern_ohl_s_v2.txt>.
+
+Contact: https://github.com/djfracking/homeauto
